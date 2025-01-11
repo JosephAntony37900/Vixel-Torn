@@ -1,0 +1,17 @@
+.about-bottom-text {
+    align-items: center;
+    color: var(--light-gray);
+    font-size: var(--fs-9);
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    color: var(--orange);
+    font-size: 25px;
+    --ionicon-stroke-width: 45px;
+}
+
+.about-bottom-text :hover {
+    color: white;
+}

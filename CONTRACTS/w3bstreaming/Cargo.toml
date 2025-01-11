@@ -1,0 +1,22 @@
+[package]
+name = "w3bstreaming"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+w3bstreaming-app = { path = "app" }
+
+[build-dependencies]
+w3bstreaming-app = { path = "app" }
+sails-rs = { workspace = true, features = ["wasm-builder"] }
+sails-idl-gen.workspace = true
+
+[dev-dependencies]
+w3bstreaming = { path = ".", features = ["wasm-binary"] }
+w3bstreaming-client = { path = "client" }
+sails-rs = { workspace = true, features = ["gtest"] }
+tokio = { workspace = true, features = ["rt", "macros"] }
+
+[features]
+wasm-binary = []

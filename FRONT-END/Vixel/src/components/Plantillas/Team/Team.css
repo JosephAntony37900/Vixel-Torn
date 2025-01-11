@@ -1,0 +1,13 @@
+.team { padding: var(--section-padding) 0; }
+  
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+  
+  .team-list li { max-width: 40%; }
+  .team .btn-primary { margin-inline: auto; }

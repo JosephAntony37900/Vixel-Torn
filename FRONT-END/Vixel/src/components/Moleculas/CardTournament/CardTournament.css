@@ -1,0 +1,28 @@
+.container-card-tournament{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.content-img-card-tournament{
+    width: 50%;
+    margin-right: 5%;
+
+    img {
+        height: 100%;
+    }
+}
+
+.content-info-card-tournament{
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    h4 {
+        font-weight: 1000;
+    }
+    p {
+        text-align: justify;
+    }
+}
+

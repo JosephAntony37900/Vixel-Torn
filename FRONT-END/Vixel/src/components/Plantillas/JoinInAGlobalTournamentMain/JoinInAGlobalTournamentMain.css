@@ -1,0 +1,63 @@
+.boyd-join-in-a-tournament {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: var(--raisin-black-1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.justify-this-content {
+    width: 100%;
+}
+
+.content-info-tournament-to-join{
+    width: 70%;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0;
+    background-color: var(--raisin-black-1);
+    clip-path: var(--polygon-1);
+    z-index: 1;
+
+    img {
+        width: 80%;
+        height: 50vh;
+    }
+
+    h2{
+        font-weight: 1000;
+        font-size: 60px;
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+.content-info-tournament-to-join::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid orange;
+    clip-path: var(--polygon-1);
+    pointer-events: none;
+    box-sizing: border-box;
+    z-index: -1;
+}

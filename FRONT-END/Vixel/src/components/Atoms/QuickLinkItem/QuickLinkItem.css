@@ -1,0 +1,12 @@
+.quicklink-item {
+    color: var(--light-gray);
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-11);
+    font-weight: var(--fw-500);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    transition: var(--transition-1);
+  }
+  
+  .quicklink-item:is(:hover, :focus) { color: var(--orange); }

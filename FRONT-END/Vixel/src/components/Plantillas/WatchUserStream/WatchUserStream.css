@@ -1,0 +1,118 @@
+.container-add-watch-form-body {
+    position: relative;
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0;
+    box-sizing: content-box;
+    background-color: var(--orange);
+    clip-path: var(--polygon-1); /* Clip-path que recorta las esquinas */
+    z-index: 1;
+  }
+
+.user {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.letterSize{
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.profileAndName {
+    display: flex;
+    padding: 20px;
+}
+
+.profileAndName span {
+    margin-top: 5px;
+    padding-left: 18px;
+}
+
+.profileAndName img {
+    width: 40px;
+
+}
+
+.add-watch-form-body {
+    position: relative;
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0;
+    box-sizing: content-box;
+    background-color: var(--raisin-black-1);
+    clip-path: var(--polygon-1); /* Clip-path que recorta las esquinas */
+    z-index: 1;
+  }
+
+  .add-watch-form-body img {
+    width: 100%;
+  }
+  
+  .add-watch-form-body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 101%;
+    border: 3px solid orange;
+    clip-path: var(--polygon-1);
+    pointer-events: none;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  .add-watch-form-body video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+    
+.add-watch-from-camps {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.add-watch-from-camps input, .add-watch-from-camps textarea {
+    background-color: var(--raisin-black-1);
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.add-watch-from-camps select {
+  background-color: var(--raisin-black-1);
+  height: 50px;
+  padding: 10px;
+  border: 2px solid white;
+  width: 100%;
+}
+
+.add-watch-from-camps h1 {
+  padding: 3px 0px;
+}
+
+#descript{
+    padding: 3vh 32vh;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.follow{
+    color: var(--orange);
+    margin-top: -1vh;
+}

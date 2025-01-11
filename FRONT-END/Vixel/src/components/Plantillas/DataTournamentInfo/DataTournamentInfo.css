@@ -1,0 +1,40 @@
+.tabs-body {
+    background-color: var(--raisin-black-1);
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .tabs button {
+    width: 25%;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--raisin-black-1);;
+    border: 2px solid orange;
+  }
+  
+  .tabs button.active {
+    background-color: orange;
+  }
+  
+  .tab-content {
+    color: white;
+    padding: 20px;
+    background-color: var(--raisin-black-1);;
+    border: 1px solid orange;
+  }
+
+  .center-this-tittle {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  

@@ -1,0 +1,13 @@
+.table-participants-content {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px orange solid;
+    padding: 1%;
+}
+
+.center-this-text{
+    width: 100%;
+    text-align: center;
+}

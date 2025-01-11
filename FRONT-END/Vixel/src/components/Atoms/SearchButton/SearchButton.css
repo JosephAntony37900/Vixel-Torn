@@ -1,0 +1,8 @@
+.search {
+    color: var(--white);
+    font-size: 18px;
+    padding: 25px;
+    transition: var(--transition-1);
+}
+
+.search:is(:hover, :focus) { color: var(--orange); }

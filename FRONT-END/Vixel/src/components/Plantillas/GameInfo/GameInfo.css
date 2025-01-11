@@ -1,0 +1,8 @@
+.content-gamecards{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-wrap: wrap;
+    background-color: var(--raisin-black-1);
+}

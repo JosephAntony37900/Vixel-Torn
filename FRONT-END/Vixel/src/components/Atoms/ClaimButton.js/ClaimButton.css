@@ -1,0 +1,13 @@
+.claim-button {
+    color: black;
+    background-color: greenyellow;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid orange;
+}
+
+.claim-button :hover{
+    color: black;
+    background-color: white;
+}

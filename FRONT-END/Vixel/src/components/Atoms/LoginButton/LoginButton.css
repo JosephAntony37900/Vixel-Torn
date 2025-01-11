@@ -1,0 +1,46 @@
+.btn-sign_in {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--raisin-black-3);
+    color: var(--light-gray);
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-11);
+    font-weight: var(--fw-500);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-right: 5px solid var(--orange);
+    box-shadow: 0 0 4px hsla(0, 0%, 0%, 0.2);
+    margin-left: 15px;
+    transition: var(--transition-1);
+  }
+
+  .btn-sign_in::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 40px;
+    background: var(--eerie-black);
+    box-shadow: 0 3px 7px hsla(345, 75%, 30%, 0.2),
+                inset 0 3px 7px 0 hsla(335, 53%, 14%, 0.4);
+  }
+
+  .btn-sign_in:is(:hover, :focus) { color: var(--orange); }
+
+  .btn-sign_in .icon-box {
+    font-size: 18px;
+    background: var(--raisin-black-2);
+    padding: 6px;
+    margin-right: 5px;
+    box-shadow: 0 3px 7px hsla(345, 75%, 30%, 0.2),
+                inset 0 3px 7px 0 hsla(335, 53%, 14%, 0.4);
+  }
+
+  .btn-sign_in .icon-box ion-icon { --ionicon-stroke-width: 40px; }
+
+  .btn-sign_in span { padding-inline: 10px; }

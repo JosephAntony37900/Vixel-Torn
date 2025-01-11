@@ -1,0 +1,28 @@
+.navbar-link {
+    color: var(--white);
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: var(--fw-500);
+    text-decoration: none;
+    position: relative; /* Necesario para la línea naranja */
+    transition: color 0.15s ease-in-out;
+  }
+  
+  .navbar-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--orange);
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .navbar-link:is(:hover, :focus) {
+    color: var(--orange);
+  }
+  
+  .navbar-link:is(:hover, :focus)::after {
+    width: 100%; /* Aparece la línea naranja */
+  }

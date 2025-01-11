@@ -1,0 +1,45 @@
+.add-tournaments-form-body {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 3% 0;
+    background-color: var(--raisin-black-1);
+    clip-path: var(--polygon-1); /* Clip-path que recorta las esquinas */
+    z-index: 1;
+  }
+  
+  .add-tournaments-form-body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid orange;
+    clip-path: var(--polygon-1);
+    pointer-events: none;
+    box-sizing: border-box;
+    z-index: -1;
+  }
+    
+.add-tournaments-from-camps {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.add-tournaments-from-camps input {
+    background-color: var(--raisin-black-1);
+    border: 2px solid white;
+    width: 100%;
+}
+
+.add-tournaments-from-camps select {
+    background-color: var(--raisin-black-1);
+    border: 2px solid white;
+    width: 100%;
+}
