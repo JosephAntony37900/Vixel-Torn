@@ -21,4 +21,4 @@ We create our own games, aiming to provide players with an enjoyable and immersi
 - **Migration in Progress:** [CoinersDrift_React](https://github.com/AnabelenScript/CoinersDrift_React)
 
 ### CheemScape:
-- [CheemScape](https://github.com/AnabelenScript/CheemScape)
+- [CheemScape](https://github.com/RichieCast07/CheemScape1.0)
