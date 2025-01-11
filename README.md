@@ -1,7 +1,7 @@
 # VIXEL
 
 <p align="center">
-  <img src="src/icons/logito2.png" alt="Logo de la empresa" width="200"/>
+  <img src="FRONT-END/Vixel/src/icons/logito2.png" alt="Logo de la empresa" width="200"/>
 </p>
 
 **Welcome to Vixel!** A revolutionary platform dedicated to bringing gamers together for an exhilarating experience in the world of competitive gaming and streaming.
