@@ -5,7 +5,7 @@
 </p>
 
 **Welcome to Vixel!** A revolutionary platform dedicated to bringing gamers together for an exhilarating experience in the world of competitive gaming and streaming.
-## About Vixel
+## About Vixel 
 Vixel is a decentralized gaming platform that allows users to create and join tournaments while ensuring transparency regarding rewards. Our mission is to provide a secure environment where players can trust that their efforts will be rewarded fairly with cryptocurrencies and NFTs.
 
 ### Features
@@ -22,3 +22,6 @@ We create our own games, aiming to provide players with an enjoyable and immersi
 
 ### CheemScape:
 - [CheemScape](https://github.com/RichieCast07/CheemScape1.0)
+
+### WhaleXPace:
+- [WhaleXPace4](https://github.com/AnaBelenScript/WhaleXpace)
